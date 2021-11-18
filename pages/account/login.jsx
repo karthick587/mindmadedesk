@@ -51,12 +51,12 @@ function Login() {
     <div className="form-content">
       <form onSubmit={handleSubmit(onSubmit)}> 
         <div className="form-group">
-          <label For="username">Username</label>
+          <label for="username">Username</label>
           <input name="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.username?.message}</div>
         </div>
         <div className="form-group">
-          <label For="password">Password</label>
+          <label for="password">Password</label>
           <input name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
         </div>
