@@ -46,7 +46,7 @@ function Register() {
             <Header />
      
         <div className="form">
-            <div classNameName="form-panel one">
+            <div className="form-panel one">
     <div className="form-header">
       <h1>Register Account</h1>
     </div>
