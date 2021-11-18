@@ -35,7 +35,7 @@ function Adminlogin() {
     }
 
     return (
-      <Layout>
+     
 
         <div className="login-body">
         <Header />
@@ -81,6 +81,6 @@ function Adminlogin() {
  
 
         </div>
-        </Layout>
+     
     );
 }

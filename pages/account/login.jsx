@@ -36,7 +36,7 @@ function Login() {
 
     return (
 
-      <Layout>
+     
         <div className="login-body">
         <Header />
       
@@ -81,6 +81,6 @@ function Login() {
  
 
         </div>
-     </Layout>
+    
     );
 }

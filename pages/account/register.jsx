@@ -41,7 +41,7 @@ function Register() {
     }
 
     return (
-        <Layout>
+       
         <div classNameName="login-body">
             <Header />
      
@@ -84,6 +84,6 @@ function Register() {
     </div>
   </div>
         </div>
-        </Layout>
+      
     );
 }
