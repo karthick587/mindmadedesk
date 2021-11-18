@@ -42,7 +42,7 @@ function Adminlogin() {
       
             
        
-        <div className="form">
+        <div className="">
   <div className="form-toggle"></div>
   <div className="form-panel one">
     <div className="form-header">
