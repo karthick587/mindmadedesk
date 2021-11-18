@@ -42,7 +42,7 @@ function Register() {
 
     return (
        
-        <div classNameName="login-body">
+        <div className="login-body">
             <Header />
      
         <div className="form">
